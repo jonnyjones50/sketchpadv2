@@ -4,4 +4,11 @@ $(document).ready(function ()  {
     $('.container').append('<div class="grid"></div>');
   }
 
+  $('.grid').hover(function () {
+        $(this).css('background-color', 'yellow');
+      }, function () {
+
+      $(this).css('background-color', 'red');
+    });
+
 });
