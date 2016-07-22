@@ -12,3 +12,8 @@ $(document).ready(function ()  {
     });
 
 });
+
+function resetFunction()  {
+  var gridSize = prompt('How large would you like the grid?');
+  console.log(gridSize);
+};
